@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2DBF9E0E1F169DEF006B5AA8 /* FocusViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF9E0D1F169DEF006B5AA8 /* FocusViewType.swift */; };
+		5548A38A2B695B9C0002EF52 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548A3892B695B9C0002EF52 /* LocalizedStrings.swift */; };
 		CE8C0771252FBBAF007FF4A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8C0770252FBBAF007FF4A4 /* Images.xcassets */; };
 		D504555F1FD8714700E46826 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D504555E1FD8714700E46826 /* UIView+Extensions.swift */; };
 		D55281B62016758F00FF3CDD /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55281B52016758F00FF3CDD /* HeaderViewController.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		2DBF9E0D1F169DEF006B5AA8 /* FocusViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = FocusViewType.swift; sourceTree = "<group>"; tabWidth = 2; };
+		5548A3892B695B9C0002EF52 /* LocalizedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
 		CE8C0770252FBBAF007FF4A4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D504555E1FD8714700E46826 /* UIView+Extensions.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; tabWidth = 2; };
 		D55281B52016758F00FF3CDD /* HeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			children = (
 				D5F1C1C51C9C5113001E17A6 /* Functions.swift */,
 				D5CB377E2017ED2E00B9319D /* VideoPermissionService.swift */,
+				5548A3892B695B9C0002EF52 /* LocalizedStrings.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				D55281C720168E7000FF3CDD /* NSLayoutConstraint+Extensions.swift in Sources */,
 				D55281BF20167DB400FF3CDD /* UIViewController+Extensions.swift in Sources */,
 				D55281BA2016770800FF3CDD /* CameraViewController.swift in Sources */,
+				5548A38A2B695B9C0002EF52 /* LocalizedStrings.swift in Sources */,
 				D5F1C1C91C9C5113001E17A6 /* Functions.swift in Sources */,
 				D55281B8201675D500FF3CDD /* MessageViewController.swift in Sources */,
 				D55281BC2016782C00FF3CDD /* BarcodeScannerViewController.swift in Sources */,

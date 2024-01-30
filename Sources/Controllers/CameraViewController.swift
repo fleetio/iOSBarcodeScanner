@@ -415,7 +415,7 @@ private extension CameraViewController {
   func makeSettingsButton() -> UIButton {
     let button = UIButton(type: .system)
     let title = NSAttributedString(
-      string: localizedString("BUTTON_SETTINGS"),
+      string: LocalizedStrings(rawValue: "BUTTON_SETTINGS")!.rawValue,
       attributes: [.font: UIFont.boldSystemFont(ofSize: 17), .foregroundColor: UIColor.white]
     )
     button.setAttributedTitle(title, for: UIControl.State())
