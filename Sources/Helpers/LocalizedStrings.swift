@@ -34,6 +34,17 @@ enum LocalizedStrings: String {
       case .ASK_FOR_PERMISSION_TEXT: return "Pour la reconnaissance des codes-barre, vous devez autoriser l'application à utiliser la caméra."
       }
       
+    case "fr-CA":
+      switch self {
+      case .SCAN_BARCODE_TITLE: return "Numériser le code-barres"
+      case .BUTTON_CLOSE: return "Fermer"
+      case .BUTTON_SETTINGS: return "Paramètres"
+      case .INFO_DESCRIPTION_TEXT: return "Placez le code-barres à scanner dans la fenêtre. La recherche débutera automatiquement."
+      case .INFO_LOADING_TITLE: return "Recherche en cours..."
+      case .NO_PRODUCT_ERROR_TITLE: return "Aucun code-barres reconnu."
+      case .ASK_FOR_PERMISSION_TEXT: return "Pour détecter les codes-barres, vous devez autoriser l’application à utiliser la caméra."
+      }
+      
     default:
       switch self {
       case .SCAN_BARCODE_TITLE: return "Scan barcode"
